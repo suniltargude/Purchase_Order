@@ -1,0 +1,16 @@
+06-03-2025 10:45:14 	Error in insert_Purchase_Details :System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Order_Details.DAL.clsMain.SavePurchaseData(String txtOrderNo, String ddlVendor, String txtOrderDate, String txtNotes, String txtOrderValue) in D:\Sunil\personal documents\MyProject\Order_Details\Order_Details\DAL\clsMain.cs:line 140
+06-03-2025 11:09:03 	Error in insert_Purchase_Details :System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Order_Details.DAL.clsMain.SavePurchaseData(String txtOrderNo, String ddlVendor, String txtOrderDate, String txtNotes, String txtOrderValue) in D:\Sunil\personal documents\MyProject\Order_Details\Order_Details\DAL\clsMain.cs:line 140
+06-03-2025 11:18:30 	Error in insert_Purchase_Details :System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Order_Details.DAL.clsMain.SavePurchaseData(String txtOrderNo, String ddlVendor, String txtOrderDate, String txtNotes, String txtOrderValue) in D:\Sunil\personal documents\MyProject\Order_Details\Order_Details\DAL\clsMain.cs:line 140
+06-03-2025 11:22:35 	Error in insert_Purchase_Details :System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Order_Details.DAL.clsMain.SavePurchaseData(String txtOrderNo, String ddlVendor, String txtOrderDate, String txtNotes, String txtOrderValue)

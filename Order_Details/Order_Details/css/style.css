@@ -1,0 +1,83 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.purchase_wrap {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.mrtop10 {
+    margin-top: 10px;
+}
+
+.mrbot10 {
+    margin-bottom: 10px;
+}
+
+.btn_wrap {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.cust_drop .form-select {
+    max-width: 95%;
+    margin-left: 26px !important;
+    margin: 10px 0px;
+}
+
+.cust_drop label {
+    line-height: 50px;
+}
+
+.cust_textarea textarea {
+    margin-left: 26px !important;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.cust_material label {
+    line-height: 30px;
+}
+
+.mrtop20 {
+    margin-top: 20px;
+}
+
+.mrleft20 {
+    margin-left: -18px;
+}
+
+.readonly-field {
+    background-color: lightgray !important; /* Gray background */
+    color: black !important; /* Black text */
+    border: 1px solid #ccc; /* Light border */
+}
+
+.scrollable-grid {
+    max-height: 300px; /* Set maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Add a border */
+    width: 100%; /* Ensure full width */
+}
+
+    /* Fix GridView Header */
+    .scrollable-grid table {
+        border-collapse: separate;
+        border-spacing: 0;
+        width: 100%;
+    }
+
+    .scrollable-grid thead th {
+        position: sticky;
+        top: 0;
+        background: #f8f9fa; /* Light background for visibility */
+        z-index: 2;
+        border-bottom: 2px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
